@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rampart+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Saira&display=swap");
+* {
+  box-sizing: border-box;
+}
+body {
+  box-sizing: border-box;
+  background-color: #ece9e6;
+}
+.page-header-link {
+  text-decoration: none;
+}
+.page-header {
+  margin-left: 50px;
+  margin-top: 25px;
+  font-size: 35px;
+  /* color: blueviolet; */
+  /* color: #8d39ec; */
+  color: #7827e6;
+  /* font-family: "Anton", sans-serif; */
+  font-family: "Rampart One", cursive;
+  /* margin-right: 768px; */
+}
+h4 {
+  font-size: 130%;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-feature-settings: "liga", "kern";
+  text-rendering: geometricPrecision;
+  -webkit-font-smoothing: antialiased;
+  margin-left: 15%;
+}
+.page-title {
+  margin-left: 15%;
+  font-family: "Saira", sans-serif;
+  /* font-weight: 800; */
+}
+
+.page-title-text {
+  font-family: "Saira", sans-serif;
+  font-weight: 1000;
+
+  /* color: rgb(59, 59, 173); */
+}
+
+.page-title-text-span {
+  color: rgb(59, 59, 173);
+}
+.selection-option {
+  font-size: 15px;
+  /* font-size: 40px; */
+  display: flex;
+  /* text-align: center;
+  align-items: center;
+  justify-content: center; */
+  font-family: "Poppins", sans-serif;
+  color: #4c4958;
+  font-weight: 600;
+  /* margin: 2rem 0; */
+  display: block;
+  /* margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px; */
+  font-feature-settings: "liga", "kern";
+  text-rendering: geometricPrecision;
+  -webkit-font-smoothing: antialiased;
+}
+
+.options-right-category {
+  margin-right: 2.51px;
+  margin-left: 2.51px;
+}
+
+.options-left-category {
+  margin-left: 2.51px;
+
+  margin-right: 2.51px;
+}
+.option-link {
+  text-decoration: none;
+}
+.options-category {
+  margin-top: 20px;
+  min-height: 15vh;
+  /* min-width: 20vh; */
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  /* border: 5px solid; */
+  /* border-radius: 50px; */
+  /* border-width: 15px; */
+  /* border-style: ridge; */
+  font-family: "Saira", sans-serif;
+  font-size: 25px;
+  text-decoration: none;
+  background: #fff;
+  border-radius: 60px;
+  /* display: inline-block; */
+  /* height: 300px; */
+  /* position: relative; */
+  width: 280px;
+  /* color: #62c4c3; */
+  /* border-radius: 2px; */
+  /* display: inline-block; */
+  /* height: 300px; */
+  /* margin: 1rem; */
+  /* position: relative; */
+}
+.options-category:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.option-link {
+  color: #62c4c3;
+}
